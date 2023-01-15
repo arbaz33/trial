@@ -1,0 +1,29 @@
+
+echo -n "enter the name of the command"
+read name
+case $name in
+Date) 
+     date
+     ;;
+Cal)
+     cal
+     ;;
+Ls)
+	ls
+	;;
+Pwd)
+	pwd
+	;;
+Exit)
+	exit
+	;;
+*)
+	echo "Unknown command "
+	exit
+	;;
+	esac
+	
+──(arbaz㉿kali)-[~/shellprog]
+└─$ ./Ques2.sh
+enter the name of the command Pwd
+/home/arbaz/shellprog
